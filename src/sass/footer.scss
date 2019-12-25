@@ -1,0 +1,44 @@
+#footer {
+    background: #040c2c;    
+    .social {
+        padding-inline-start: 0;
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+        li {
+            display: inline-block;
+            padding: 0;
+            width: 42px;
+            height: 42px; 
+            border-radius: 50%;
+            line-height: 43px;          
+            a {
+                i {
+                    &:before {
+                        color: #fff;    
+                    }
+                }
+            }
+            &:hover {
+                background: #fff;
+                i {
+                    &:before {
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+    .initial {
+        font-size: 2rem;
+        background: #fff;
+        border-radius: 50%;
+        width: 53px;
+        color: #000;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+// GLOBAL Footer
+

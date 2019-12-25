@@ -1,0 +1,97 @@
+.mainHeader {
+    h1 {
+        font-size: 50px;
+    }
+    .navbar-brand {
+        background: #000;
+        border-radius: 50%;
+        width: 45px;
+        color: #fff!important;
+        font-weight: 300;
+        text-align: center;
+    }
+    .navbar {
+        &.top-nav-collapse {
+            .navbar-collapse {
+                .navbar-nav {
+                    a {
+                        color: #000;
+                        font-weight: 400;
+                            &:hover {
+                                color: #000;
+                                    &.active {
+                                        color: #000;
+                                        border-bottom: 2px solid #000;
+                                    }
+                            }
+                    }
+                    &.active {
+                        a {
+                            &.active {
+                                border-bottom: 2px solid #000;
+                            }    
+                        }
+                    }
+                }
+            }
+        }
+        .navbar-nav {
+            .nav-item {
+                padding-right: 30px;
+                &.active {
+                    a {
+                        &.active {
+                        background-color: transparent;
+                        border-bottom: 2px solid #fff;
+                        }
+                    }
+                }    
+            }
+        }        
+    }
+    .scroll-more {
+        position: relative;
+        top: 100px;
+        .fa {
+            background: #fff;
+            width: 42px;
+            height: 42px; 
+            border-radius: 50%;
+            font-size: 20px;
+            line-height: 43px; 
+            color: #000;
+        }
+    }
+
+    //SOCIAL MEDIA
+    .social {
+        padding-inline-start: 0;
+        padding: 0;
+        font-size: 20px;
+        li {
+            display: inline-block;
+            margin: 0 15px;
+            padding: 0;
+            background: rgba(0,0,0,.3);
+            width: 42px;
+            height: 42px; 
+            border-radius: 50%;
+            line-height: 43px;          
+            a {
+                i {
+                    &:before {
+                        color: #fff;    
+                    }
+                }
+            }
+            &:hover {
+                background: #fff;
+                i {
+                    &:before {
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}

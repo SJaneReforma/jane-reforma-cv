@@ -1,0 +1,54 @@
+{
+    "main": {
+      "greetings":"HELLO",
+      "fname": "Sherry Jane Reforma",
+      "name":"Jane Reforma",
+      "occupation":"Senior Web Developer",
+      "AboutDescription":"Web Developer with 5 years of experience in the development of innovative static and dynamic websites using current W3C standards of coding. Additional experience in the use of content management systems to allow clients to update content on their websites. Very strong organisational, presentational, and communication skills to help plan out and pitch different web user interface styles that suited the client’s needs.",
+      "image":"profilepic.jpg",
+      "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+      "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+      "email": "youremailhere@gmail.com",
+      "phone": "",
+      "address": {
+        "street":"",
+        "city":"",
+        "state":"",
+        "zip": ""
+      },
+      "website": "",
+      "resumedownload":"",
+      "social":[
+        {
+          "name":"facebook",
+          "url":"https://web.facebook.com/jane.reforma",
+          "className":"fa fa-facebook"
+        },
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"instagram",
+          "url":"http://instagram.com/",
+          "className":"fa fa-instagram"
+        },
+        {
+          "name":"github",
+          "url":"http://github.com/",
+          "className":"fa fa-github"
+        },
+        {
+          "name":"skype",
+          "url":"http://skype.com",
+          "className":"fa fa-skype"
+        }
+      ],
+      "ServicesTitle": "What I'm Doing",
+      "ServicesDescription": "I love what I do. I take great pride in what I do.",
+      "ServicesWebDeb1": "Some quick example text to build on the card title and make up the bulk of the card&apos;s content.",
+      "ServicesWebDeb2": "Some quick example text to build on the card title and make up the bulk of the card&apos;s content.",
+      "ServicesWebDeb3": "Some quick example text to build on the card title and make up the bulk of the card&apos;s content."
+    }
+}    
