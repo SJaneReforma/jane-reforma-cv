@@ -52,7 +52,7 @@ class About extends React.Component {
                                         <p className="pt-3 font-weight-bold">WordPress</p>
                                         <MDBProgress material value={85} height="20px"> 85% </MDBProgress>
                                         <p className="pt-3 font-weight-bold">Photoshop</p>
-                                        <MDBProgress material value={70} height="20px"> 70% </MDBProgress>                                                                                                       
+                                        <MDBProgress material value={80} height="20px"> 80% </MDBProgress>                                                                                                       
                                     </MDBCol>
                                 </MDBRow>
                             </MDBAnimation>  
