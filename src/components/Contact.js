@@ -9,7 +9,7 @@ class Contact extends React.Component {
             })
           }
         return (
-            <div className="main-contact pb-5 pt-5">
+            <div id="section4" className="main-contact pb-5 pt-5">
                 <MDBContainer>
                     <MDBRow>
                         <MDBCol md="6">

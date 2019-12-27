@@ -7,12 +7,6 @@ class Portfolio extends React.Component {
         return (
             <section className="text-center my-5" id="section3">
                 <h2 className="h1-responsive font-weight-bold my-5">Portfolio</h2>
-                <p className="grey-text w-responsive mx-auto mb-5">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                est laborum.
-                </p>
                 <MDBContainer>
                     <MDBRow className="d-flex justify-content-center">
                             <MDBCol md="4" xl="4" className="mb-4">

@@ -42,22 +42,10 @@ class App extends React.Component {
   }
 
    render() {
-      if(this.props.data) {
-        var networks= this.props.data.social.map(function(network){
-            return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-        })
-      }
       return (
          <div className="main">
          <Router>
                <Header data={this.state.myData.main} />
-               <Switch>
-                     <Route exact path="/">
-                     </Route>
-                     <Route exact path="/">
-                        <About />
-                     </Route>
-               </Switch>
          </Router>
          <About data={this.state.myData.main} />
          <Services data={this.state.myData.main}/>

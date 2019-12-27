@@ -51,7 +51,7 @@ class Header extends React.Component {
                                 <MDBNavLink className="smoothscroll" to="#section3">Portfolio</MDBNavLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <MDBNavLink to="#">Contact Us</MDBNavLink>
+                                <MDBNavLink className="smoothscroll" to="#section4">Contact Us</MDBNavLink>
                             </MDBNavItem>                   
                         </MDBNavbarNav>
                     </MDBCollapse>
