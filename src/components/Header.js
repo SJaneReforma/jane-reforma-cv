@@ -31,7 +31,7 @@ class Header extends React.Component {
       return (
         <div className="main-wrapper">
           <header className="mainHeader">
-              <MDBNavbar className="justify-content-center" color="white" fixed="top" dark expand="md" scrolling transparent>
+              <MDBNavbar className="" color="white" fixed="top" dark expand="md" scrolling transparent>
                 <MDBNavbarBrand href="/">
                   <strong>JD</strong>
                 </MDBNavbarBrand>

@@ -13,20 +13,20 @@ class About extends React.Component {
                     <div className="AboutMeWrapper">
                         <MDBContainer>
                             <MDBRow>
-                                <MDBCol lg="5" className="text-center text-lg-left">
+                                <MDBCol lg="5" xs="12" className="text-center text-lg-left">
                                     <img className="img-fluid" src="/images/home-right.png" alt=""/>
                                 </MDBCol>
-                                <MDBCol lg="7">
+                                <MDBCol lg="7" xs="12">
                                     <MDBRow className="mb-3">
-                                        <MDBCol xl="10" md="11" size="10">
+                                        <MDBCol xl="12" md="12" size="12">
                                             <MDBAnimation type="fadeInDown">
-                                                <h1 className="h1-responsive font-weight-bold my-3">ABOUT ME</h1>
+                                                <h1 className="h1-responsive font-weight-bold my-3 text-lg-left text-center">ABOUT ME</h1>
                                             </MDBAnimation>
-                                            <p className="black-text font-weight-bold font-italic">{occupation}</p>       
+                                            <p className="black-text font-weight-bold font-italic text-lg-left text-center">{occupation}</p>       
                                             <MDBAnimation type="fadeInDown">                                                                      
                                                 <p className="black-text text-justify">{description}</p>
                                             </MDBAnimation>  
-                                            <MDBBtn color="elegant">Download CV</MDBBtn>
+                                            <MDBBtn className="d-flex justify-content-center" color="elegant">Download CV</MDBBtn>
                                         </MDBCol>
                                     </MDBRow>                 
                                 </MDBCol>
