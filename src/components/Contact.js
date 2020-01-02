@@ -9,10 +9,10 @@ class Contact extends React.Component {
             })
           }
         return (
-            <div id="section4" className="main-contact pb-5 pt-5">
+            <div className="main-contact pb-5 pt-5">
                 <MDBContainer>
                     <MDBRow>
-                        <MDBCol md="6">
+                        <MDBCol md="6" className="mb-5 mb-lg-0">
                             <h4 className="text-center mb-4 font-weight-bold">CONTACT INFO</h4>                            
                             <p className=""><span className="font-weight-bold">Address: </span> San Pablo City, Laguna</p>
                             <p className=""><span className="font-weight-bold">Phone Number: </span> 00000000</p>
@@ -29,8 +29,8 @@ class Contact extends React.Component {
                                         <MDBInput type="textarea" rows="2" label="Your message" icon="pencil-alt" />
                                     </div>
                                     <div className="text-center">
-                                    <MDBBtn color="cyan">
-                                        Send <MDBIcon far icon="paper-plane" className="ml-1" />
+                                    <MDBBtn color="elegant">
+                                        Send <MDBIcon icon="paper-plane" className="ml-1" />
                                     </MDBBtn>
                                     </div>
                             </form>

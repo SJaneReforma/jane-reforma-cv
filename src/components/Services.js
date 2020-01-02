@@ -24,8 +24,8 @@ class Services extends React.Component {
                                     </MDBRow>
                                     <MDBAnimation type="fadeInUp">  
                                         <MDBRow>
-                                            <MDBCol xl="4" md="12">
-                                                <MDBCard style={{ width: "22rem" }}>
+                                            <MDBCol className="mb-lg-0 mb-5" xl="4" md="12">
+                                                <MDBCard>
                                                     <MDBCardBody>
                                                         <img className="d-flex justify-content-center text-center mx-auto pb-3" src="/images/icon1.png" width="70" alt=""/>
                                                         <MDBCardTitle className="text-center">Web Development</MDBCardTitle>
@@ -35,8 +35,8 @@ class Services extends React.Component {
                                                     </MDBCardBody>
                                                 </MDBCard>    
                                             </MDBCol>    
-                                            <MDBCol xl="4" md="4">
-                                                <MDBCard style={{ width: "22rem" }}>
+                                            <MDBCol className="mb-lg-0 mb-5" xl="4" md="4">
+                                                <MDBCard>
                                                     <MDBCardBody>
                                                         <img className="d-flex justify-content-center text-center mx-auto pb-3" src="/images/icon3.png" width="70" alt=""/>
                                                         <MDBCardTitle className="text-center">Support</MDBCardTitle>
@@ -47,7 +47,7 @@ class Services extends React.Component {
                                                 </MDBCard>    
                                             </MDBCol> 
                                             <MDBCol xl="4" md="4">
-                                                <MDBCard style={{ width: "22rem" }}>
+                                                <MDBCard>
                                                     <MDBCardBody>
                                                         <img className="d-flex justify-content-center text-center mx-auto pb-3" src="/images/icon2.png" width="70" alt=""/>
                                                         <MDBCardTitle className="text-center">Maintenance</MDBCardTitle>

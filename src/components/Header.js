@@ -33,7 +33,7 @@ class Header extends React.Component {
           <header className="mainHeader">
               <MDBNavbar className="" color="white" fixed="top" dark expand="md" scrolling transparent>
                 <MDBNavbarBrand href="/">
-                  <strong>JD</strong>
+                  <strong>JR</strong>
                 </MDBNavbarBrand>
                 {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
                     <MDBCollapse isOpen={this.state.collapse} navbar>
@@ -61,7 +61,9 @@ class Header extends React.Component {
                 <MDBMask overlay="black-strong" className="flex-center flex-column text-white text-center">
                     <span className="pb-3">{greetings}</span>  
                     <h1>I am {name}</h1>
-                    <h5 className="">{occupation}</h5>
+                    <MDBAnimation type="lightSpeedIn">
+                        <h5 className="">{occupation}</h5>
+                    </MDBAnimation>
                     <hr />
                     <ul className="social pb-3">
                         {networks}

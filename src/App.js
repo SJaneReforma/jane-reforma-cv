@@ -24,7 +24,7 @@ class App extends React.Component {
 
   getMyData(){
     $.ajax({
-      url:'/myData.json',
+      url:'./myData.json',
       dataType:'json',
       cache: false,
       success: function(data){

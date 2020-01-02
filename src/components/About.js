@@ -2,12 +2,13 @@ import React from 'react';
 import { MDBContainer, MDBBtn, MDBRow, MDBCol, MDBAnimation, MDBProgress } from 'mdbreact';
 
 class About extends React.Component {
-
+    
     render() {  
         if(this.props.data) {
             var description= this.props.data.AboutDescription;
             var occupation= this.props.data.occupation;
         }
+        
         return (
             <section className="my-5 about-me" id="section1">   
                     <div className="AboutMeWrapper">

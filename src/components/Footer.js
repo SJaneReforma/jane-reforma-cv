@@ -13,7 +13,7 @@ class Footer extends React.Component {
                 <MDBFooter className="font-small pt-5 pb-2" id="footer">
                     <MDBContainer className="d-flex justify-content-center">
                         <div className="initial-div d-flex">
-                            <span className="initial"><strong>JD</strong></span>
+                            <span className="initial"><strong>JR</strong></span>
                         </div>
                     </MDBContainer>
                     <div className="text-center py-3">

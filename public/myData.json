@@ -49,6 +49,51 @@
       "ServicesDescription": "I love what I do. I take great pride in what I do.",
       "ServicesWebDeb1": "Some quick example text to build on the card title and make up the bulk of the card&apos;s content.",
       "ServicesWebDeb2": "Some quick example text to build on the card title and make up the bulk of the card&apos;s content.",
-      "ServicesWebDeb3": "Some quick example text to build on the card title and make up the bulk of the card&apos;s content."
+      "ServicesWebDeb3": "Some quick example text to build on the card title and make up the bulk of the card&apos;s content.",
+
+      "portfolioList":[ 
+        {
+          "pName":"Intranet",
+          "imageLink":"/images/intranet.png",
+          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
+          "btnLink":"https://intranet.deepbluecompany.com.au/",
+          "btnText":"View more"
+        },
+        {
+          "pName":"TC Free Quote Page",
+          "imageLink":"/images/think.png",
+          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
+          "btnLink":"https://quote.thinkconveyancing.com.au/free-quote-vic/",
+          "btnText":"View more"
+        },
+        {
+          "pName":"Think Conveyacing Calculator",
+          "imageLink":"/images/TC-Calculator.png",
+          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
+          "btnLink":"https://calculator.thinkconveyancing.com.au/",
+          "btnText":"View more"
+        },
+        {
+          "pName":"ABS CBN Lingkod Kapamilya",
+          "imageLink":"/images/lingkod.png",
+          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
+          "btnLink":"https://corporate.abs-cbn.com/lingkodkapamilya/",
+          "btnText":"View more"
+        },
+        {
+          "pName":"ABS CBN Cable Channels",
+          "imageLink":"/images/abs-cable.png",
+          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
+          "btnLink":"https://cablechannels.abs-cbn.com/",
+          "btnText":"View more"
+        },
+        {
+          "pName":"XYZ Printing",
+          "imageLink":"/images/XYZ.png",
+          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
+          "btnLink":"https://www.xyzprinting.com/en-US/home",
+          "btnText":"View more"
+        }
+      ]
     }
 }    
