@@ -27,9 +27,10 @@ class App extends React.Component {
       url:'./myData.json',
       dataType:'json',
       cache: false,
-      success: function(data){
+      success: function(data) {
         this.setState({myData: data});
-      }.bind(this),
+      }
+      .bind(this),
       error: function(xhr, status, err){
         console.log(err);
         alert(err);

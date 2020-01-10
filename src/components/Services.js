@@ -11,7 +11,7 @@ class Services extends React.Component {
             var WB3 = this.props.data.ServicesWebDeb3;
         }
         return (
-            <section className="my-5 services" id="section2">   
+            <section className="my-5 services" id="section3">   
                     <div className="Services_Wrapper">
                         <MDBContainer>
                             <MDBRow>
@@ -29,7 +29,7 @@ class Services extends React.Component {
                                                     <MDBCardBody>
                                                         <img className="d-flex justify-content-center text-center mx-auto pb-3" src="/images/icon1.png" width="70" alt=""/>
                                                         <MDBCardTitle className="text-center">Web Development</MDBCardTitle>
-                                                            <MDBCardText>
+                                                            <MDBCardText className="text-center">
                                                                 {WB1}
                                                             </MDBCardText>
                                                     </MDBCardBody>
@@ -40,7 +40,7 @@ class Services extends React.Component {
                                                     <MDBCardBody>
                                                         <img className="d-flex justify-content-center text-center mx-auto pb-3" src="/images/icon3.png" width="70" alt=""/>
                                                         <MDBCardTitle className="text-center">Support</MDBCardTitle>
-                                                            <MDBCardText>
+                                                            <MDBCardText className="text-center">
                                                                 {WB2}
                                                             </MDBCardText>
                                                     </MDBCardBody>
@@ -51,7 +51,7 @@ class Services extends React.Component {
                                                     <MDBCardBody>
                                                         <img className="d-flex justify-content-center text-center mx-auto pb-3" src="/images/icon2.png" width="70" alt=""/>
                                                         <MDBCardTitle className="text-center">Maintenance</MDBCardTitle>
-                                                            <MDBCardText>
+                                                            <MDBCardText className="text-center">
                                                                 {WB3}
                                                             </MDBCardText>
                                                     </MDBCardBody>

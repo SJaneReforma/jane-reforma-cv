@@ -47,51 +47,72 @@
       ],
       "ServicesTitle": "What I'm Doing",
       "ServicesDescription": "I love what I do. I take great pride in what I do.",
-      "ServicesWebDeb1": "Some quick example text to build on the card title and make up the bulk of the card&apos;s content.",
-      "ServicesWebDeb2": "Some quick example text to build on the card title and make up the bulk of the card&apos;s content.",
-      "ServicesWebDeb3": "Some quick example text to build on the card title and make up the bulk of the card&apos;s content.",
+      "ServicesWebDeb1": "Create or build websites using web dev tools such as Wordpress, HTML5, CSS3, Bootsrap 4, Angular Js, Javascript, JQuery, PHP.",
+      "ServicesWebDeb2": "Support and lead the team for their daily task.",
+      "ServicesWebDeb3": "Maintained existing website and update contents",
 
       "portfolioList":[ 
         {
           "pName":"Intranet",
           "imageLink":"/images/intranet.png",
-          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
+          "desc":"Wordpress, HTML5, CSS3, Bootsrap 4, Javascript, JQuery, PHP",
           "btnLink":"https://intranet.deepbluecompany.com.au/",
           "btnText":"View more"
         },
         {
           "pName":"TC Free Quote Page",
           "imageLink":"/images/think.png",
-          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
+          "desc":"Wordpress, HTML5, CSS3, Bootsrap 4, Javascript, JQuery, PHP",
           "btnLink":"https://quote.thinkconveyancing.com.au/free-quote-vic/",
           "btnText":"View more"
         },
         {
           "pName":"Think Conveyacing Calculator",
           "imageLink":"/images/TC-Calculator.png",
-          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
-          "btnLink":"https://calculator.thinkconveyancing.com.au/",
+          "desc":"Wordpress, HTML5, CSS3, Bootsrap 4, Javascript, JQuery, PHP",
+          "btnLink":"https://quote.thinkconveyancing.com.au/calculator-version2-dev/",
+          "btnText":"View more"
+        },
+        {
+          "pName":"Calculator Version 2",
+          "imageLink":"/images/calculator-ver2.png",
+          "desc":"HTML5, CSS3, SASS, Bootsrap 4, Javascript, Angular JS, Java",
+          "btnLink":"https://quote.thinkconveyancing.com.au/calculator-version2-dev/",
+          "btnText":"View more"
+        },
+                {
+          "pName":"XYZ Website",
+          "imageLink":"/images/XYZ.png",
+          "desc":"HTML5, CSS3, SASS, Bootsrap 4, Javascript, Angular JS, JQuery, Java",
+          "btnLink":"https://cablechannels.abs-cbn.com/",
+          "btnText":"View more"
+        },
+        {
+          "pName":"Smart Banner",
+          "imageLink":"/images/kpph-banner-backstage.png",
+          "desc":"HTML5, CSS3, SASS, Bootsrap 4, Javascript, Angular JS, JQuery, Java",
+          "btnLink":"https://cablechannels.abs-cbn.com/",
           "btnText":"View more"
         },
         {
           "pName":"ABS CBN Lingkod Kapamilya",
           "imageLink":"/images/lingkod.png",
-          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
+          "desc":"HTML5, CSS3, Bootsrap 4, Javascript, NodeJs",
           "btnLink":"https://corporate.abs-cbn.com/lingkodkapamilya/",
           "btnText":"View more"
         },
         {
           "pName":"ABS CBN Cable Channels",
           "imageLink":"/images/abs-cable.png",
-          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
+          "desc":"HTML5, CSS3, Bootsrap 4, Javascript, NodeJs",
           "btnLink":"https://cablechannels.abs-cbn.com/",
           "btnText":"View more"
         },
         {
-          "pName":"XYZ Printing",
-          "imageLink":"/images/XYZ.png",
-          "desc":"Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit cupidatat proident voluptatem quia numquam.",
-          "btnLink":"https://www.xyzprinting.com/en-US/home",
+          "pName":"ABS-CBN TV Plus",
+          "imageLink":"/images/tvplus.png",
+          "desc":"HTML5, CSS3, Bootsrap 4, Javascript, NodeJs",
+          "btnLink":"https://tvplus.abs-cbn.com/",
           "btnText":"View more"
         }
       ]

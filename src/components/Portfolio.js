@@ -14,12 +14,7 @@ class Portfolio extends React.Component {
                         </a>
                     </MDBView>
                     <MDBCardBody className="pb-0">
-                            <a href={port.btnLink} className="green-text">
-                                <h5 className="font-weight-bold mt-2 mb-3">
-                                <MDBIcon fas icon="eye" className="pr-2" />
-                                {port.pName}
-                                </h5>
-                            </a>
+                            <p className="mb-0">{port.desc}</p>
                             <MDBBtn href={port.btnLink} color="success" rounded>
                                 {port.btnText}
                             </MDBBtn>
@@ -28,7 +23,7 @@ class Portfolio extends React.Component {
             )
           }
         return (
-            <section className="text-center my-5" id="section3">
+            <section className="text-center my-5" id="section4">
                 <h2 className="h1-responsive font-weight-bold my-5">Portfolio</h2>
                 <MDBContainer>
                     <MDBRow className="d-flex justify-content-center">
