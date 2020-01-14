@@ -70,7 +70,7 @@ class Header extends React.Component {
                     </ul>
                     <MDBAnimation type="bounce" infinite>
                         <p className="scrolldown scroll-more pt-3">
-                            <a className="smoothscroll" href="#section1"><i className="fa fa-arrow-down" aria-hidden="true"></i></a>
+                            <a className="smoothscroll" href="#section2"><i className="fa fa-arrow-down" aria-hidden="true"></i></a>
                         </p>
                     </MDBAnimation>
                 </MDBMask>
